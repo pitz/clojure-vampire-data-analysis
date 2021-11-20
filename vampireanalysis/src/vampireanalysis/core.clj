@@ -22,8 +22,6 @@
     (map #(clojure.string/split % #",")
           (clojure.string/split string #"\n")))
 
-;; (println (parse (slurp filename)))
-
 (defn mapify
     [rows]
     (map (fn [unmapped-row]
