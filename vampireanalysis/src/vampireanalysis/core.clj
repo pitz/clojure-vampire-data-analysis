@@ -45,5 +45,9 @@
     [minimum-power-index records]
     (filter #(>= (:power-index %) minimum-power-index) records))
 
-(println "VAMPIROS DETECTADOS: ")
-(println (power-index-filter 3 (mapify (parse (slurp filename)))))
+(defn list-names 
+    [vampire-list]
+    (map :name vampire-list))
+
+(println " # VAMPIROS DETECTADOS: ")
+(println (list-names (power-index-filter 3 (sort-by :power-index (mapify (parse (slurp filename)))))))
