@@ -1,6 +1,7 @@
 #### A Vampire Data Analysis!
 
-As I said in my other repos, I'm reading "Clojure for the Brave and True". 
+Another piece of code using Clojure. 
 
-This is another piece of code using Clojure. 
-Here I learned how to work with different namespaces and exports functions between them. 
+I'm reading a book called "Clojure for the Brave and True" and this is an example from there. It's a really simple example and I tried to reproduce myself. Now, I'll use my knowledge in the Core Functions of Clojure. In this project, it's possible to see some Collection Abstraction, Lazy Seqs and Seq Functions.
+
+The goal is to analyze a file (CSV) with vampire data.
